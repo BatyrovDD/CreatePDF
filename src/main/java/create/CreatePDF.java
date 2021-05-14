@@ -57,11 +57,11 @@ public class CreatePDF {
 			e.printStackTrace();
 		}
 		
-		String string_pdf = "������ ���� ������������� ������ �� ������� ����� ������� ��� �����! �������� ���������� ��� �������� PDF �����.";
+		String string_pdf = "Добрый день замечательные группы ПИ второго курса кафедры АСУ УГАТУ! Тестовое приложения для создания PDF файла.";
 		Paragraph paragraph = new Paragraph();
 	    paragraph.add(new Paragraph(string_pdf, new Font(times,14)));
 	    
-	    String string_pdf2 = "�������������� �����, ������� ��������� � PDF. ��� ���� ����� ��������, ��� ����� ��������� �������� ����������, ������� ����� ��������� � ���� PDF.";
+	    String string_pdf2 = "Дополнительный текст, который выводится в PDF. При этом нужно понимать, что можно указывать значения переменных, которые будут выводится в файл PDF.";
 	    paragraph.add(new Paragraph(string_pdf2, new Font(times,14)));
 	
 	    try {
@@ -106,7 +106,6 @@ public class CreatePDF {
 			} catch (DocumentException e) {
 				e.printStackTrace();
 			}
-	    
 	    
 		 //����������� �������� �� ��������� ������
 		 paragraph.clear();
