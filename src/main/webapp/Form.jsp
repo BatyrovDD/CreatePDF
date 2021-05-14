@@ -4,12 +4,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Создание PDF-документа</title>
-
 <link rel="stylesheet" href="css/stylepdf.css">
-
 </head>
 <body>
-
 <h1 class="headline">Create PDF for course work</h1>
 <p>Создается PDF-файл с текстом, изображением и таблицей. Данные в таблицу вносятся с формы ниже по ячейкам. Форматирование можно задать с помощью CSS.</p>
 
