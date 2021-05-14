@@ -2,9 +2,11 @@ package laba4;
 
 import java.io.IOException;
 
+
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
+
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
@@ -48,12 +50,8 @@ public class Calc extends HttpServlet {
 				first_try=0;
 				second_try=0;	
 			}
-			
 			result=first_try+second_try;
 			request.setAttribute("result", result);
 		}
-		
 	}
-	
-	
 }
